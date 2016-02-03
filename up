@@ -1,15 +1,16 @@
 #!/bin/bash
 if [ -t 1 ];then
 echo -e "\e[36m"
-sudo apt-get -y --force-yes update
+sudo apt-get -y update
 echo -e "\e[35m"
-sudo apt-get -y --force-yes upgrade
+sudo apt-get -y upgrade
 echo -e "\e[31m"
-sudo apt-get -y --force-yes dist-upgrade
+sudo apt-get -y dist-upgrade
 echo -e "\e[33m"
-sudo apt-get -y --force-yes autoremove
-sudo apt-get -y --force-yes autoclean
+sudo apt-get -y autoremove
+sudo apt-get -y autoclean
 echo -e "\e[39m"
 else
-gksudo -S -m "\"up\" needs root privileges to run." 'apt-get -y --force-yes update;apt-get -y --force-yes upgrade;apt-get -y --force-yes dist-upgrade;apt-get -y --force-yes autoremove;apt-get -y --force-yes autoclean'
+#gksudo -S -m "\"up\" needs root privileges" 'apt-get -y update;apt-get -y upgrade;apt-get -y dist-upgrade;apt-get -y autoremove;apt-get -y autoclean'
+gnome-terminal -x "$0"
 fi
