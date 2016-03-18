@@ -9,7 +9,7 @@ sudo apt-get -y dist-upgrade
 echo -e "\e[33m"
 sudo apt-get -y autoremove
 sudo apt-get -y autoclean
-echo -e "\e[39m"
+echo -e "\e[0m"
 else
 #gksudo -S -m "\"up\" needs root privileges" 'apt-get -y update;apt-get -y upgrade;apt-get -y dist-upgrade;apt-get -y autoremove;apt-get -y autoclean'
 gnome-terminal -x "$0"
