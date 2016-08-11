@@ -4,7 +4,7 @@ echo -e "\e[36m"
 sudo apt-get -y update
 echo -e "\e[35m"
 sudo apt-get -y upgrade
-#sudo apt-get -y dist-upgrade
+sudo apt-get -y dist-upgrade
 echo -e "\e[31m"
 sudo apt-get -y autoremove
 echo -e "\e[33m"
