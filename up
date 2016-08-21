@@ -10,6 +10,7 @@ sudo apt-get -y autoremove
 echo -e "\e[33m"
 sudo apt-get -y autoclean
 echo -e "\e[0m"
+#sudo $(dirname $0)/programming/bash/pepperupdate.sh
 else
-gnome-terminal -x "$0"
+x-terminal-emulator -x "$0"
 fi
