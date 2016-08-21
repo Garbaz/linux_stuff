@@ -1,29 +1,17 @@
 #Debian:
 
-deb http://ftp.de.debian.org/debian/ jessie main contrib non-free
-deb-src http://ftp.de.debian.org/debian/ jessie main contrib non-free
-
 deb http://ftp.de.debian.org/debian/ testing main contrib non-free
 deb-src http://ftp.de.debian.org/debian/ testing main contrib non-free
 
-deb http://ftp.debian.org/debian/ jessie-updates main contrib non-free
-deb-src http://ftp.debian.org/debian/ jessie-updates main contrib non-free
+deb http://ftp.debian.org/debian/ testing-updates main contrib non-free
+deb-src http://ftp.debian.org/debian/ testing-updates main contrib non-free
 
-deb http://security.debian.org/ jessie/updates main contrib non-free
-deb-src http://security.debian.org/ jessie/updates main contrib non-free
-
-# deb http://ftp.debian.org/debian/ experimental main
-# deb-src http://ftp.debian.org/debian/ experimental main
+deb http://security.debian.org/ testing/updates main contrib non-free
+deb-src http://security.debian.org/ testing/updates main contrib non-free
 
 #3rd Party:
-
-deb http://www.deb-multimedia.org jessie main non-free
-deb-src http://www.deb-multimedia.org jessie main non-free
 
 deb http://www.deb-multimedia.org testing main non-free
 deb-src http://www.deb-multimedia.org testing main non-free
 
-# deb http://debian.ids-services.de/debian-multimedia/ testing main
-# deb-src http://debian.ids-services.de/debian-multimedia/ testing main
-
-deb http://deb.torproject.org/torproject.org jessie main
+deb http://deb.torproject.org/torproject.org testing main
