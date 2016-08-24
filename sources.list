@@ -1,17 +1,22 @@
-#Debian:
+# Debian Main Repos
+deb http://ftp.de.debian.org/debian/ testing main contrib non-free 
+deb-src http://ftp.de.debian.org/debian/ testing main contrib non-free 
 
-deb http://ftp.de.debian.org/debian/ testing main contrib non-free
-deb-src http://ftp.de.debian.org/debian/ testing main contrib non-free
+# Only activate of pinned properly!!!!
+#deb http://ftp.de.debian.org/debian/ unstable main contrib non-free       # Only activate of pinned properly!!!!
+#deb-src http://ftp.de.debian.org/debian/ unstable main contrib non-free   # Only activate of pinned properly!!!!
 
-deb http://ftp.debian.org/debian/ testing-updates main contrib non-free
-deb-src http://ftp.debian.org/debian/ testing-updates main contrib non-free
+# Debian Update Repos
+deb http://security.debian.org/ testing/updates main contrib non-free 
+deb http://ftp.de.debian.org/debian/ testing-proposed-updates main contrib non-free 
+deb-src http://security.debian.org/ testing/updates main contrib non-free 
+deb-src http://ftp.de.debian.org/debian/ testing-proposed-updates main contrib non-free 
 
-deb http://security.debian.org/ testing/updates main contrib non-free
-deb-src http://security.debian.org/ testing/updates main contrib non-free
+## 3rd Party Repos
 
-#3rd Party:
-
+# Debian Multimedia - http://deb-multimedia.org/
 deb http://www.deb-multimedia.org testing main non-free
-deb-src http://www.deb-multimedia.org testing main non-free
 
+# Tor Project - http://www.torproject.org
 deb http://deb.torproject.org/torproject.org testing main
+deb-src http://deb.torproject.org/torproject.org testing main
