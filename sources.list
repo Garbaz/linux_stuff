@@ -3,8 +3,8 @@ deb http://ftp.de.debian.org/debian/ testing main contrib non-free
 deb-src http://ftp.de.debian.org/debian/ testing main contrib non-free 
 
 # Only activate of pinned properly!!!!
-#deb http://ftp.de.debian.org/debian/ unstable main contrib non-free       # Only activate of pinned properly!!!!
-#deb-src http://ftp.de.debian.org/debian/ unstable main contrib non-free   # Only activate of pinned properly!!!!
+#deb http://ftp.de.debian.org/debian/ unstable main contrib non-free
+#deb-src http://ftp.de.debian.org/debian/ unstable main contrib non-free
 
 # Debian Update Repos
 deb http://security.debian.org/ testing/updates main contrib non-free 
